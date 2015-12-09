@@ -1,0 +1,17 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^news/([^/.]+)/{0,1}$       	news.php?n_id=$1 [QSA,L]
+RewriteRule ^galleries/{0,1}$              	galleries.php [QSA,L]
+RewriteRule ^gallery/([^/.]+)/{0,1}$      	galleries.php?ocd=details&gid=$1 [QSA,L]
+RewriteRule ^reports/{0,1}$              	reports.php [QSA,L]
+RewriteRule ^report/([^/.]+)/{0,1}$      	reports.php?ocd=details&gid=$1 [QSA,L]
+RewriteRule ^map/{0,1}$              		map.php [QSA,L]
+RewriteRule ^search/{0,1}$              	search.php [QSA,L]
+RewriteRule ^country/([^/.]+)/{0,1}$      	countries.php?ocd=details&c_id=$1 [QSA,L]
+RewriteRule ^testimonials/{0,1}$            testimonials.php [QSA,L]
+RewriteRule ^ok/{0,1}$      				content.php?p_id=2&res=ok [QSA,L]
+RewriteRule ^([A-Za-z0-9_-]+)$          	content.php?p_id=$1 [QSA,L]
+RewriteRule ^([^/.]+)/([0-9]+)$         	content.php?p_id=$1&s_id=$2 [QSA,L]
+</IfModule>

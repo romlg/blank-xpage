@@ -1,0 +1,256 @@
+
+body {
+    font-size: 12px;
+    background-color: #ffffff;
+    font-weight: normal;
+    font-family: Verdana, Arial, Helvetica;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+img { border:none; }
+
+p { text-align: justify; color: #000000; }
+
+li {
+    font-weight: normal;
+    padding-bottom: 4px;
+}
+
+td, table {
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 12px;
+    color: #000000;
+    padding: 0px;
+    vertical-align: top;
+    border-style: none;
+}
+
+table.mainTable {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	TEXT-ALIGN:center;
+}
+
+td.menu_left {
+	background-image: url('../images/menu_left.gif');
+	width:16px;
+}
+
+td.menu_bg {
+	background-image: url('../images/menu_bg.gif');
+	text-align:left;
+	padding-top:8px;
+}
+
+td.menu_right {
+	background-image: url('../images/menu_right.gif');
+	width:16px;
+}
+
+td.mainPart {
+	background-color: #ffffff;
+	padding:5px;
+}
+
+td.leftSide {
+	width:28%;
+	vertical-align:top;
+	border-right: 1px solid #cacaca; 
+}
+
+td.rightSide {
+	width:72%;
+	vertical-align:top;
+	padding-left:5px;
+}
+
+td.centerHead {
+	text-align:left;
+	padding-bottom: 4px;
+}
+
+td.centerContent {
+	text-align: left;
+	padding-top: 10px;
+}
+
+h1 {
+    font-family: Times, Arial, Helvetica;
+	color: #000000;
+	font-size: 24px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+/*menu*/
+
+a.active {
+    font-family: Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    text-decoration: none;
+    color:#000000;
+}
+
+ a.active:hover {
+    font-family:  Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;   
+    font-size:16px;
+    text-decoration: none;
+    color:#2f5886;
+}
+
+a.inactive {
+    font-family: Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    text-decoration: none;
+    color:#2f5886;
+}
+
+ a.inactive:hover {
+    font-family:  Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;   
+    font-size:16px;
+    text-decoration: none;
+    color:#000000;
+}
+
+a.page_active {
+    font-family: Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;
+    font-size:10px;
+    text-decoration: underline;
+    color:#4c4044;
+    font-weight:bold;
+}
+
+ a.page_active:hover {
+    font-family:  Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;   
+    font-size:10px;
+    text-decoration: none;
+    color:#4c4044;
+    font-weight:bold;
+}
+
+a.page_inactive {
+    font-family: Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;
+    font-size:10px;
+    text-decoration: none;
+    color:#4c4044;
+    font-weight:bold;
+}
+
+ a.page_inactive:hover {
+    font-family:  Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;   
+    font-size:10px;
+    text-decoration: underline;
+    color:#4c4044;
+    font-weight:bold;
+}
+
+td.divider {
+    width:2px;
+    background-image: url('../images/divider.gif');
+	background-repeat: no-repeat;
+    
+}
+
+td.menuItem {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+p.description {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+span.question {
+	font-size:12px;
+	color: #7c71a9;
+	font-weight:bold;
+}
+
+span.message {
+	font-size:12px;
+	color: #08a713;
+}
+
+span.error {
+	font-size:12px;
+	color: #ff0000;
+}
+td.wPadding {
+	padding:2px;
+}
+
+span.newsSpan {
+	color: #faa544;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+a.newsLink {
+    font-family: Verdana, Arial, Helvetica;
+    margin:0px;
+    padding:0px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #3ba2d2;
+    font-weight: normal;
+}
+
+img.img_w_board {
+	border: 3px double #009cd7;
+}
+
+A.pages:link, A.pages:visited {
+    FONT-WEIGHT: normal; COLOR: #009cd7;
+    font-family: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: underline; FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+}
+
+A.pages:hover {
+    FONT-WEIGHT: normal; COLOR: #009cd7;
+    font-family: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none; FONT-SIZE: 10px;
+    font-weight: bold;
+}
+
+B.pages {
+    FONT-WEIGHT: bold; COLOR: #009cd7; FONT-SIZE: 10px;
+    font-family: Verdana, Arial, Helvetica;
+    
+} 
+
+a.copyright {
+    font-family: Verdana, Arial, Helvetica;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #3ba2d2;
+    font-weight: bold;
+}
+
+a.copyright:hover {
+    text-decoration: underline;
+}
+
